@@ -1,4 +1,0 @@
-# chatbot-sinistros
-
-Assistente 
-
