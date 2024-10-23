@@ -1,0 +1,8 @@
+#!/media/alexmendes/4ccae0a4-743c-4fe7-9a6b-3bd86fbc2d61/Documentos/chatboot/chatbot-sinistros/chatboot/bin/python3
+# -*- coding: utf-8 -*-
+import re
+import sys
+from pip._internal.cli.main import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
